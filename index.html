@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+  <title>Currency Counter</title>
+  <link rel="stylesheet" href="Framework7/dist/css/framework7.min.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <div class="panel-overlay"></div>
+  <div class="panel panel-left panel-reveal">
+    <div class="content-block">
+      <p>Left Panel content here</p>
+      <p><a href="#" class="panel-close">Close me</a></p>
+      <p><a href="#" class="open-right-panel">Open Right Panel</a></p>
+    </div>
+  </div>
+  <div class="panel panel-right panel-cover">
+    <div class="content-block">
+      <p>Right Panel content here</p>
+      <p><a href="#" class="panel-close">Close me</a></p>
+      <p><a href="#" class="open-left-panel">Open Left Panel</a></p>
+    </div>
+  </div>
+  <div id="app">
+    <div class="statusbar"></div>
+    <div class="view view-main view-init" data-url="/">
+      <div class="page">
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="title sliding">Money Counter</div>
+          </div>
+        </div>
+        <div class="page-content">
+          <div class="list links-list searchbar-hide-on-search" style="margin-top: 2px;">
+            <ul>
+              <li>
+                <a href="/newcount/">Start New</a>
+              </li>
+              <li>
+                <a href="/resumecount/?type=resume">Continue</a>
+              </li>
+              <li>
+                <a href="/history/">History</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </div>
+  <script src="Framework7/dist/js/framework7.js"></script>
+  <script src="js/routes.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

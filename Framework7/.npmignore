@@ -1,0 +1,10 @@
+.git
+.github
+build
+custom
+kitchen-sink
+kitchen-sink-ios
+kitchen-sink-material
+node_modules
+npm-debug.log
+scripts/build-config-custom.js

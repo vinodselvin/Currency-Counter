@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+  <title>Framework7</title>
+  <link rel="stylesheet" href="../dist/css/framework7.min.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <div id="app">
+    <div class="statusbar"></div>
+    <div class="panel panel-left panel-cover">
+      <div class="page">
+        <div class="page-content">
+          <div class="block-title">Left Panel</div>
+          <div class="block">
+            <p>This is a left side panel. You can close it by clicking outsite or on this link: <a href="#" class="panel-close">close me</a>. You can put here anything, even another isolated view like in <a href="#" data-panel="right" class="panel-open">Right Panel</a></p>
+          </div>
+          <div class="block-title">Main View Navigation</div>
+          <div class="list links-list">
+            <ul>
+              <li>
+                <a href="/accordion/" class="panel-close">Accordion</a>
+              </li>
+              <li>
+                <a href="/action-sheet/" class="panel-close">Action Sheet</a>
+              </li>
+              <li>
+                <a href="/badge/" class="panel-close">Badge</a>
+              </li>
+              <li>
+                <a href="/buttons/" class="panel-close">Buttons</a>
+              </li>
+              <li>
+                <a href="/cards/" class="panel-close">Cards</a>
+              </li>
+              <li>
+                <a href="/checkbox/" class="panel-close">Checkbox</a>
+              </li>
+              <li>
+                <a href="/chips/" class="panel-close">Chips/Tags</a>
+              </li>
+              <li>
+                <a href="/contacts-list/" class="panel-close">Contacts List</a>
+              </li>
+              <li>
+                <a href="/data-table/" class="panel-close">Data Table</a>
+              </li>
+            </ul>
+          </div>
+          <div class="block">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse faucibus mauris leo, eu bibendum neque congue non. Ut leo mauris, eleifend eu commodo a, egestas ac urna. Maecenas in lacus faucibus, viverra ipsum pulvinar, molestie arcu. Etiam lacinia venenatis dignissim. Suspendisse non nisl semper tellus malesuada suscipit eu et eros. Nulla eu enim quis quam elementum vulputate. Mauris ornare consequat nunc viverra pellentesque. Aenean semper eu massa sit amet aliquam. Integer et neque sed libero mollis elementum at vitae ligula. Vestibulum pharetra sed libero sed porttitor. Suspendisse a faucibus lectus.</p>
+            <p>Duis ut mauris sollicitudin, venenatis nisi sed, luctus ligula. Phasellus blandit nisl ut lorem semper pharetra. Nullam tortor nibh, suscipit in consequat vel, feugiat sed quam. Nam risus libero, auctor vel tristique ac, malesuada ut ante. Sed molestie, est in eleifend sagittis, leo tortor ullamcorper erat, at vulputate eros sapien nec libero. Mauris dapibus laoreet nibh quis bibendum. Fusce dolor sem, suscipit in iaculis id, pharetra at urna. Pellentesque tempor congue massa quis faucibus. Vestibulum nunc eros, convallis blandit dui sit amet, gravida adipiscing libero.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-right panel-reveal">
+      <div class="view view-init view-right" name="right" data-url="/">
+        <div class="page">
+          <div class="navbar">
+            <div class="navbar-inner sliding">
+              <div class="title">Right Panel</div>
+            </div>
+          </div>
+          <div class="page-content">
+            <div class="block">
+              <p>This is a right side panel. You can close it by clicking outsite or on this link: <a href="#" class="panel-close">close me</a>. You can put here anything, even another isolated view.</p>
+            </div>
+            <div class="block-title">Panel Navigation</div>
+            <div class="list links-list">
+              <ul>
+                <li><a href="/panel-right-1/">Right panel page 1</a></li>
+                <li><a href="/panel-right-2/">Right panel page 2</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="view view-main view-init" data-url="/">
+      <div class="page">
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="title sliding">Framework7</div>
+            <div class="right">
+              <a class="link icon-only searchbar-enable" data-searchbar=".searchbar-components">
+                <i class="icon f7-icons ios-only">search_strong</i>
+                <i class="icon material-icons md-only">search</i>
+              </a>
+            </div>
+            <form data-search-container=".components-list" data-search-in="a" class="searchbar searchbar-expandable searchbar-components searchbar-init">
+              <div class="searchbar-inner">
+                <div class="searchbar-input-wrap">
+                  <input type="search" placeholder="Search components"/>
+                  <i class="searchbar-icon"></i>
+                  <span class="input-clear-button"></span>
+                </div>
+                <span class="searchbar-disable-button">Cancel</span>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="page-content">
+          <div class="list links-list searchbar-hide-on-search">
+            <ul>
+              <li>
+                <a href="/about/">About Framework7</a>
+              </li>
+            </ul>
+          </div>
+          <div class="block-title searchbar-found">Components</div>
+          <div class="list links-list components-list searchbar-found">
+            <ul>
+              <li>
+                <a href="/accordion/">Accordion</a>
+              </li>
+              <li>
+                <a href="/action-sheet/">Action Sheet</a>
+              </li>
+              <li>
+                <a href="/autocomplete/">Autocomplete</a>
+              </li>
+              <li>
+                <a href="/badge/">Badge</a>
+              </li>
+              <li>
+                <a href="/buttons/">Buttons</a>
+              </li>
+              <li>
+                <a href="/calendar/">Calendar / Date Picker</a>
+              </li>
+              <li>
+                <a href="/cards/">Cards</a>
+              </li>
+              <li>
+                <a href="/checkbox/">Checkbox</a>
+              </li>
+              <li>
+                <a href="/chips/">Chips/Tags</a>
+              </li>
+              <li>
+                <a href="/contacts-list/">Contacts List</a>
+              </li>
+              <li>
+                <a href="/content-block/">Content Block</a>
+              </li>
+              <li>
+                <a href="/data-table/">Data Table</a>
+              </li>
+              <li>
+                <a href="/dialog/">Dialog</a>
+              </li>
+              <li>
+                <a href="/fab/">FAB</a>
+              </li>
+              <li>
+                <a href="/fab-morph/">FAB Morph</a>
+              </li>
+              <li>
+                <a href="/form-storage/">Form Storage</a>
+              </li>
+              <li>
+                <a href="/icons/">Icons</a>
+              </li>
+              <li>
+                <a href="/infinite-scroll/">Infinite Scroll</a>
+              </li>
+              <li>
+                <a href="/inputs/">Inputs</a>
+              </li>
+              <li>
+                <a href="/grid/">Grid / Layout Grid</a>
+              </li>
+              <li>
+                <a href="/lazy-load/">Lazy Load</a>
+              </li>
+              <li>
+                <a href="/list/">List View</a>
+              </li>
+              <li>
+                <a href="/login-screen/">Login Screen</a>
+              </li>
+              <li>
+                <a href="/messages/">Messages</a>
+              </li>
+              <li>
+                <a href="/navbar/">Navbar</a>
+              </li>
+              <li>
+                <a href="/notifications/">Notifications</a>
+              </li>
+              <li>
+                <a href="/panel/">Panel / Side Panels</a>
+              </li>
+              <li>
+                <a href="/picker/">Picker</a>
+              </li>
+              <li>
+                <a href="/photo-browser/">Photo Browser</a>
+              </li>
+              <li>
+                <a href="/popup/">Popup</a>
+              </li>
+              <li>
+                <a href="/popover/">Popover</a>
+              </li>
+              <li>
+                <a href="/preloader/">Preloader</a>
+              </li>
+              <li>
+                <a href="/progressbar/">Progress Bar</a>
+              </li>
+              <li>
+                <a href="/pull-to-refresh/">Pull To Refresh</a>
+              </li>
+              <li>
+                <a href="/radio/">Radio</a>
+              </li>
+              <li>
+                <a href="/range/">Range Slider</a>
+              </li>
+              <li>
+                <a href="/searchbar/">Searchbar</a>
+              </li>
+              <li>
+                <a href="/searchbar-expandable/">Searchbar Expandable</a>
+              </li>
+              <li>
+                <a href="/sheet-modal/">Sheet Modal</a>
+              </li>
+              <li>
+                <a href="/smart-select/">Smart Select</a>
+              </li>
+              <li>
+                <a href="/sortable/">Sortable List</a>
+              </li>
+              <li>
+                <a href="/statusbar/">Statusbar</a>
+              </li>
+              <li>
+                <a href="/subnavbar/">Subnavbar</a>
+              </li>
+              <li>
+                <a href="/swipeout/">Swipeout (Swipe To Delete)</a>
+              </li>
+              <li>
+                <a href="/swiper/">Swiper Slider</a>
+              </li>
+              <li>
+                <a href="/tabs/">Tabs</a>
+              </li>
+              <li>
+                <a href="/timeline/">Timeline</a>
+              </li>
+              <li>
+                <a href="/toast/">Toast</a>
+              </li>
+              <li>
+                <a href="/toggle/">Toggle</a>
+              </li>
+              <li>
+                <a href="/toolbar-tabbar/">Toolbar & Tabbar</a>
+              </li>
+              <li>
+                <a href="/virtual-list/">Virtual List</a>
+              </li>
+            </ul>
+          </div>
+          <div class="list simple-list searchbar-not-found">
+            <ul>
+              <li>Nothing found</li>
+            </ul>
+          </div>
+          <div class="block-title searchbar-hide-on-search">Themes</div>
+          <div class="list links-list searchbar-hide-on-search">
+            <ul>
+              <li>
+                <a href="./?theme=ios" class="external">iOS Theme</a>
+              </li>
+              <li>
+                <a href="./?theme=md" class="external">Material (MD) Theme</a>
+              </li>
+              <li>
+                <a href="/color-themes/">Color Themes</a>
+              </li>
+            </ul>
+          </div>
+          <div class="block-title searchbar-hide-on-search">Page Loaders & Router</div>
+          <div class="list links-list searchbar-hide-on-search">
+            <ul>
+              <li>
+                <a href="/page-loader-template7/vladimir/123/about-me/1/?start=0&end=30#top">Template7 Page</a>
+              </li>
+              <li>
+                <a href="/page-loader-component/vladimir/123/about-me/1/?start=0&end=30#top">Component Page</a>
+              </li>
+              <li>
+                <a href="/load-something-that-doesnt-exist/">Default Route (404)</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../dist/js/framework7.min.js"></script>
+  <script src="js/routes.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
